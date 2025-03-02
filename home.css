@@ -1,0 +1,149 @@
+.titel_border {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.custom-border_titel video {
+  width: 100vw;
+  height: auto; 
+}
+
+.btn-light:disabled {
+  background-color: rgb(240, 240, 240);
+  font-size: 14px;
+  padding: 8px;
+  border-radius: 90px;
+}
+
+.custom-gap {
+  row-gap: 1rem;
+  column-gap: 0.5rem;
+}
+
+.container-fluid, .row {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: calc(2rem + 1vw);
+}
+
+h5 {
+  font-size: 16px;
+  color: #616161;
+  font-weight: 400;
+}
+
+ .row {
+  --bs-gutter-x: 0; /* Entfernt horizontales Padding */
+}
+
+.space-black{
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 42px;
+  background-color: black;
+}
+
+.custom-border-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.titel_border {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+video {
+  width: 100%;
+  height: auto;
+}
+
+.overlay-text {
+  position: absolute;
+  bottom: 15%; 
+  right: 10%; 
+  color: rgba(255, 255, 255, 0.5);
+  text-align: left; 
+  gap: calc(10px + 1vw);
+}
+
+.vertical-line::before {
+  content: "";
+  display: inline-block;
+  width: 1px;
+  height: 1em;
+  background-color: rgba(255, 255, 255, 0.5);
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+.small-text {
+  font-size: calc(0.8rem + 0.5vw); 
+  color: rgba(255, 255, 255, 0.5);
+  text-align: left; 
+  margin-right: 5%;
+  font-size: clamp(13px, 1.5vw, 16px);
+  font-weight: 300;
+}
+
+.vertical-text{
+  font-size: clamp(13px, 1.5vw, 16px);
+  font-weight: 300;
+}
+
+.deco{
+  text-decoration: underline;
+}
+
+@media (max-width: 767px) {
+  .custom-border {
+    padding-left: 16px;  
+    padding-right: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+.overlay-text {
+  display: none; 
+}
+
+.space-inbetween {
+  display: block;
+  text-align: left;
+  padding: 20px;
+}
+
+.space-inbetween .deco {
+  margin-top: 10px;
+}
+}
+
+@media (max-width: 768px) {
+  .small-text {
+    color: black;
+    margin: 0;
+    padding-left: 5px;
+  }
+}
+
+@media (min-width: 768px) {
+  .first-space {
+    display: none; 
+  }
+}
+
+

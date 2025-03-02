@@ -1,0 +1,54 @@
+.video-container {
+  align-self: flex-start;
+  max-width: 120px;
+  display: block;
+  margin-top: 10px;
+}
+
+.unterüberschrift{
+font-size: 16px;
+color: #333;
+}
+
+.col-md-6{
+  margin-top: 0;
+}
+
+.col-md-5 {
+  min-height: 674.88px; 
+}
+
+@media (max-width: 767.98px) { 
+  .col-md-5 {
+    min-height: 250px;
+  }
+}
+
+.responsive-img {
+  max-width: 100%; 
+  width: 100%; 
+  height: auto; 
+  max-width: 1100px;
+  display: block; 
+  margin: 0 auto;
+}
+
+.übertext{
+  font-size: 25px;
+  color: #6c6c6c;
+  margin-bottom: 0;
+}
+
+.übertext2{
+  font-size: 25px;
+  color: #4c4c4c;
+  margin-bottom: 18px;
+}
+
+@media (min-width: 767px) {
+  .zweispaltig {
+    margin-left: min(5vw, 90px);
+  }
+}
+
+

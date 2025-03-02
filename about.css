@@ -1,0 +1,64 @@
+.inner-text {
+  max-width: 768px; 
+  margin: 0 auto;
+  padding: 0 15px; 
+}
+
+.text{
+  margin-top: 30px;
+  margin-bottom: 40px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #616161;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 300;
+  color: #616161;
+}
+
+.content {
+  padding: 0;
+  max-height: 0; 
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.collapsible {
+  cursor: pointer;
+  padding: 25px 0 25px 0;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-weight: 500;
+  font-size: 18px;
+  background-color: transparent; 
+  border-bottom: 1px solid rgb(235, 235, 235);
+}
+
+.collapsible.activebutton {
+  border-bottom: none; 
+}
+
+.collapsible:after {
+  content: '\02795'; /* (+) */
+  font-size: 13px;
+  float: right;
+  margin-left: 5px;
+}
+
+.activebutton:after {
+  content: "\2796"; /* (-) */
+}
+
+.py-3.bg-light.text-black.text-center {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: lightgray;
+}
